@@ -1,0 +1,17 @@
+version: '3'
+
+services:
+  selenium:
+    image: selenium/standalone-chrome:latest
+    shm_size: 2gb
+    ports:
+      - 4444:4444  # selenium sever port
+      - 7900:7900  # 実行中のChromeを確認するVNC用port
+  
+  python:
+    build: .
+    volumes: 
+      - ./tmgbc-cancel-list:/tmgbc-cancel-list
+    tty: true
+    depends_on:
+      - selenium
