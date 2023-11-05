@@ -161,3 +161,6 @@ cython_debug/
 
 # poetryでパッケージ管理するためrequirements.txtは無視
 requirements.txt
+
+# エラー発生時に出力されるスクリーンショットは無視
+screenshot.png
