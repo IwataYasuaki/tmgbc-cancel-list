@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "tmgbc-cancel-list"
-version = "0.1.0"
+version = "1.0.0"
 description = "東京都スポーツ施設サービスで施設のキャンセル待ちをする"
 authors = ["Yasuaki Iwata <yasuaki.iwata0101@gmail.com>"]
 readme = "README.md"
