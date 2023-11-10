@@ -11,7 +11,7 @@ services:
   python:
     build: .
     volumes: 
-      - ./tmgbc-cancel-list:/tmgbc-cancel-list
+      - ./tmgbc_cancel_list:/tmgbc_cancel_list
     tty: true
     depends_on:
       - selenium
